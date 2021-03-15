@@ -197,7 +197,7 @@ h6{
     color: var(--primary-color);
     position: relative;
     bottom:-10%;
-    right:-190px;
+    right:-200px;
     font-size: 35px;
 }
 
@@ -213,7 +213,7 @@ h6{
     color: var(--primary-color);
     position: relative;
     bottom: -20%;
-    right: -455px;
+    right: -450px;
     font-size: 30px;
 }
 
@@ -226,19 +226,174 @@ h6{
     position: relative;
     bottom: -1500px;
 }
-    
-@media screen and (min-device-width:414px) and (max-device-width:768px){
 
-   .content {
-        flex-basis:90%;
+
+@media screen and (max-width:1024px){
+
+    .header {
+
+        padding: 30px;
     }
 
+    .header h1{
+    position: relative;
+    display:inline-block;
+    font-size:16px;
+
+    }
+
+
+    .header nav ul li {
+    position: relative;
+    font-size:16px;
+    top:-15px;
+     }
+
+    .about-me p {
+    
+    position:relative;
+    font-size: 14px;
+    
+    }
+
+    .my-work ul, li {
+
+    position: relative;
+    right:-50px;
+    bottom:-20px
+
+    }
+
+    .contact-info p {
+        position: relative;
+        left:70px;
+        font-size: 20px;
+    }
+
+    .my-resume p {
+        position:relative;
+        left: 100px;
+    }
+
+    h3 {
+
+    position:relative;
+    left:160px;
+    
+    }
+
+
+    h4 {
+        position: relative;
+        left:-20px;
+    }
+
+    h5{
+        position: relative;
+        right:-100px;
+    }
+
+    .footer {
+        position: relative;
+        bottom:-1200px;
+    }
+
+
+}
+
+@media screen and (max-width:416px)
+{
+.header{
+    padding: 20px;
+}
+
+
+
+.header h1 {
+    position:relative;
+    display: inline-block;
+    
+    font-size: 10px;
+    left:-10px;
+}
+
+.header nav ul li {
+    position: relative;
+    font-size: 10px;
+    left:20px;
+    display: inline-block;
+
+
+}
+
+img {
+    height:200px;
+    width: 415px;
+    vertical-align: middle;
+    margin-right:5%;
+    margin-bottom: 5%; 
+}
+
+.about-me img{
+    max-height: 300px;
+    max-width: 150px;
+    position:relative;
+    top:-40px;
+}
+
+.my-work ul, li {
+
+ position: relative;
+ right:-50px;
+ bottom:-20px;
+ font-size: 16px;
+ left:20px
+
+
+}
+
+.contact-info p {
+    position: relative;
+    left:30px;
+    font-size: 10px;
+}
+
+
+.my-resume p {
+    position:relative;
+    left: 40px;
+    font-size: 16px;
+}
+
+h3 {
+    position:relative;
+    left:60px;
+    font-size: 16px;
+}
+
+
+
+h4 {
+    position: relative;
+    right:30px;
+    font-size: 16px;
 }
 
 
 
 
+h5 {
+    position: relative;
+    right:-40px;
+    font-size: 16px;
+}
+
+.footer {
+    position: relative;
+    bottom:-1000px;  
+}
 
 
+}
 
 
